@@ -1,0 +1,165 @@
+body
+{
+background-image: url(pool-water.jpg);
+background-repeat: no-repeat;
+background-position: top bottom;
+background-size: cover;
+}
+
+nav 
+{
+width: 160px;
+font-weight: bold;
+float: left;
+display: inline;
+margin: 0;
+padding: 0;
+margin-right: 50px;
+}
+
+nav a 
+{
+text-decoration: none;
+}
+
+nav ul
+{
+list-style-type: none;
+padding-left: 10px;
+font-size: 1.2em;
+}
+
+nav a:link
+{
+color: #3361FF;
+}
+
+nav a:visited
+{
+color: #33A5FF;
+}
+
+nav a:hover
+{
+color: #A8ABA4;
+}
+
+main
+{
+width: 500px;
+float: left;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+main p
+{
+font-size: 1.0em;
+color: #625656;
+}
+
+main img
+{
+border: 10px solid #FFFFF0;
+}
+
+h2, h3
+{
+color: #3361FF;
+font-weight:bold;
+font-size:20px;
+}
+
+aside
+{
+color: #1FCF00;
+background-color: #F8E08B;
+background-position: bottom;
+background-size: cover;
+border-left: 8px solid;
+width: 160px;
+float:right;
+margin-left: 20px;
+text-align: center;
+}
+
+hr
+{
+color: #1FCF00;
+}
+
+footer 
+{
+margin-left: 190px;
+float: left;
+background-color: #FFFFFF;
+font-size: 75%;
+font-style: italic;
+text-align: center;
+font-family: Georgia, "Times New Roman", serif;
+padding: 20px;
+}
+
+lable
+{
+float: left;
+display: block;
+text-align: right;
+width: 120px;
+padding-right: 10px;
+}
+
+input
+{
+display: block;
+margin-bottom: 20px;
+}
+
+input[type="submit"]
+{
+margin-left: 30px;
+}
+
+input[type="reset"]
+{
+margin-left: 34px;
+}
+
+select
+{
+display: block;
+margin-bottom: 20px;
+}
+
+textarea
+{
+display: block;
+margin-bottom: 20px;
+}
+
+
+#wrapper 
+{
+margin-left: auto;
+margin-right: auto;
+width: 967px;
+background-image: url(text-back.jpg);
+background-repeat: repeat-y;
+background-position: top bottom;
+min-width: 967px;
+max-width: 2048px;
+overflow: auto;
+}
+
+.rightimg
+{
+float: right;
+padding-left: 50px;
+}
+
+.leftimg
+{
+float: left;
+padding-right: 50px;
+}

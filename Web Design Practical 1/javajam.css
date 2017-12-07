@@ -1,0 +1,94 @@
+body
+{
+color: #2E0000;
+background-color: #F5F5DC;
+background-image: url(javabackground.gif);
+font-family: Arial, Verdana, sans-serif;
+}
+
+#wrapper
+{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+background-color: #F5F5DC;
+min-width: 960px;
+max-width: 2048px;
+box-shadow: 3px 3px 3px #2E0000;
+}
+
+header
+{
+height: 100px;
+margin: 0;
+text-indent: -9999px;
+background-color: #D2B48C;
+background-image: url(javalogo.gif);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+nav
+{
+background-color: #E6D6A9;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
+
+main
+{
+padding: 20x;
+display: block;
+}
+
+h1
+{
+font-family: Georgia, "Times New Roman", serif;
+}
+
+h2
+{
+font-family: Georgia, "Times New Roman", serif;
+}
+
+h3
+{
+background-color: #E6D6A9;
+text-transform: uppercase;
+}
+
+dt
+{
+font-weight: bold;
+}
+
+ul
+{
+list-style-image: url(marker.gif);
+}
+
+footer
+{
+color: #000000;
+background-color: #D2B48C;
+font-size: .60em;
+font-weight: italic;
+text-align: center;
+padding: 10px;
+}
+
+#hero
+{
+height: 300px;
+color: #f5f5dc;
+background-image: url(heroroad.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.news
+{
+margin-left: 20%;
+margin-right: 20%;
+}

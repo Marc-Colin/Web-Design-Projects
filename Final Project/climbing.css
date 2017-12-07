@@ -1,0 +1,182 @@
+body
+{
+background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-position: top bottom;
+background-size: cover;
+}
+
+header 
+{
+color: #000000;
+background-image: url(header.jpg);
+background-repeat: repeat;
+background-position: center;
+height: 60px;
+text-align: center;
+padding-top: 15px;
+}
+
+nav
+{
+background-color: #E6D6A9;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
+
+nav a 
+{
+text-decoration: none;
+}
+
+nav a:link
+{
+color: #000033;
+}
+
+nav a:visited
+{
+color: #344873;
+}
+
+nav a:hover
+{
+color: #FFFFFF;
+}
+
+h2
+{
+text-align: center;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h3
+{
+text-align: center;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h4
+{
+padding-left: 30px;
+}
+
+main p
+{
+font-size: 1.5em;
+padding-left: 30px;
+padding-right: 30px;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+main img
+{
+border: 10px solid #784D03;
+}
+
+dl img
+{
+border: 10px solid #784D03;
+}
+
+dt
+{
+padding-left: 30px;
+font-size: 1.5em;
+text-align: left;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+dd
+{
+padding-right: 30px;
+font-size: 1.0em;
+text-align: left;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+table
+{
+float: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+form { 
+margin: 0 auto; 
+width: 250px;
+}
+
+lable
+{
+padding-left: 30px;
+display: block;
+text-align: left;
+width: 120px;
+}
+
+input
+{
+display: block;
+margin-left: 20px;
+}
+
+input[type="submit"]
+{
+margin-left: 30px;
+}
+
+input[type="reset"]
+{
+margin-left: 34px;
+}
+
+textarea
+{
+display: block;
+margin-left: 20px;
+}
+
+footer 
+{
+float: center;
+background-color: #EABB7C;
+font-size: 75%;
+font-style: italic;
+text-align: center;
+font-family: "Arial Black", Gadget, sans-serif;
+padding: 20px;
+}
+
+#wrapper 
+{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+background-color: #EABB7C;
+background-position: top bottom;
+min-width: 960px;
+max-width: 2048px;
+box-shadow: 3px 3px 3px #333333;
+overflow: auto;
+}
+
+.rightimg
+{
+float: right;
+padding-left: 30px;
+padding-right: 50px;
+}
+
+.leftimg
+{
+float: left;
+padding-right: 50px;
+padding-left: 35px;
+}
+
+.centerimg
+{
+float: center;
+}
